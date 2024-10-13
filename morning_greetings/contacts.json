@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Alice",
+        "email": "abc@example.com",
+        "preferred_time": "08:00 AM"
+    },
+    {
+        "name": "Bob",
+        "email": "bcd@example.com",
+        "preferred_time": "09:00 AM"
+    },
+    {
+        "name": "Charlie",
+        "email": "cde@example.com",
+        "preferred_time": "7:30 AM"
+    }
+]
