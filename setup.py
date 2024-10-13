@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="morning_greetings",
+    name="ACIT4420-MorningMessage",
     version="0.1",
     packages=find_packages(),  # Automatically find all packages in your project
     include_package_data=True,  # Include non-Python files specified in MANIFEST.in (if any)
