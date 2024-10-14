@@ -14,7 +14,7 @@
 - Easy to install and run using a command-line interface.
 - Educational for those learning Python and package management.
 - Modular design for easy extension and maintenance.
-- 
+  
 ## Installation-Manual
 
 Follow these simple steps to install and set up the project:
