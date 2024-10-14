@@ -5,8 +5,8 @@
 - [Features](#features)
 - [Installation-Manual](#installation)
 - [Usage](#usage)
-- [Games Included](#games-included)
 - [Project Structure](#project-structure)
+- [Key Files](#key-files)
 - [License](#license)
   
 ## Features
@@ -66,6 +66,8 @@ Logs the morning greeting message for a specific user through the function log_m
 ###4. message_sender.py
 Sends a greeting message to a specific email address, raising an error if the email is not provided throught the function send_message().
 
+
+## Project Structure
 ```
 ACIT4420-MorningMessage/
 │
