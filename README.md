@@ -60,19 +60,15 @@ Simply decide upon an option and follow the on-screen instructions for further g
 Modules included:
 
 ### 1. contact_manager.py
-
 A simple class managing contacts stored in a JSON file, with built in functions like add_contact, remove_contact(), load_contacts(), save_contacts() and list_contacts().
 
 ### 2. message_generator.py
-
 Generates a personalized morning greeting message for a specific user throught the function generate_message().
 
 ### 3. logger.py
-
 Logs the morning greeting message for a specific user through the function log_message().
 
 ### 4. message_sender.py
-
 Sends a greeting message to a specific email address, raising an error if the email is not provided throught the function send_message().
 
 
