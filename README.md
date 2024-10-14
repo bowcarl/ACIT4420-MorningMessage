@@ -1,6 +1,6 @@
 # ACIT4420-MorningMessage
 
-**ACIT4220-MorningMessage** is a morning greeting package developed as a part of the ACIT4420 course and mandatory assigment. The package includes four python files which includes contact_manager.py, message_generator.py, message_sender.py and logger.py. Additonaly the program has a `__main__.py` entrypoint, an `__init__.py` file to mark it as module, a log_message.txt file for logging and a JSON file were the contacts are stored.
+**ACIT4220-MorningMessage** is a morning greeting package developed as a part of the ACIT4420 course and mandatory assigment. The package includes four python files which includes **contact_manager.py**, **message_generator.py**, **message_sender.py** and **logger.py**. Additonaly the program has a `__main__.py` entrypoint, an `__init__.py` file to mark it as module, a **log_message.txt** file for logging and a JSON file were the contacts are stored.
 ## Table of Contents
 - [Features](#features)
 - [Installation Manual](#installation)
@@ -60,13 +60,13 @@ Simply decide upon an option and follow the on-screen instructions for further g
 Modules included:
 
 ### 1. contact_manager.py
-A simple class managing contacts stored in a JSON file, with built in functions like add_contact, remove_contact(), load_contacts(), save_contacts() and list_contacts().
+A simple class managing contacts stored in a JSON file, with built in functions like **add_contact()**, **remove_contact()**, **load_contacts()**, **save_contacts()** and **list_contacts()**.
 
 ### 2. message_generator.py
-Generates a personalized morning greeting message for a specific user throught the function generate_message().
+Generates a personalized morning greeting message for a specific user throught the function **generate_message()**.
 
 ### 3. logger.py
-Logs the morning greeting message for a specific user through the function log_message().
+Logs the morning greeting message for a specific user through the function **log_message()**.
 
 ### 4. message_sender.py
 Sends a greeting message to a specific email address, raising an error if the email is not provided throught the function send_message().
@@ -95,7 +95,7 @@ ACIT4420-MorningMessage/
 └── README.md                  # Project documentation (this file)
 ```
 ### Key Files
-- **`main.py`**: Contains the main function that launces the option menu.
+- **`__main__.py`**: Contains the main function that launces the option menu.
 - **`setup.py`**: Scripts for installing the package.
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/shailendrabhandari/project_game/blob/main/LICENSE) file for details.
