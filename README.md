@@ -28,3 +28,5 @@ With your virtual environment activated, install the project using pip:
 ```bash
 pip install -e .
 ```
+
+## Usage
