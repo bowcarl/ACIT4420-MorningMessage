@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'morning_greetings=morning_greetings.main:main',  # Points directly to the main function in main.py
+            'morning_greetings=morning_greetings.__main__:main',  # Points directly to the main function in main.py
         ],
     },
 )
