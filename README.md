@@ -53,7 +53,8 @@ This will launch a menu (from the **__main__.py** entrypoint) where you can choo
 1. **Add a Contact**
 2. **Remove a Contact**
 3. **Send Morning Greeting Messages**
-4. **Exit the code**
+4. **List Contacts**
+5. **Exit the code**
 
 Simply decide upon an option and follow the on-screen instructions for further guidance.
 
