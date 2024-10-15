@@ -20,7 +20,8 @@ def choices():
     print("1. Add Contact")
     print("2. Remove Contact")
     print("3. Send Messages")
-    print("4. Exit")
+    print("4. List contacts")
+    print("5. Exit")
     choice = input("Enter your choice: ")
     return choice
 
@@ -50,9 +51,8 @@ def main():
         elif choice == '3':
             send_greetings() # Calls the send_greetings function
         elif choice == '4':
+            Contacts.list_contacts()
+        elif choice == '5':
             exit() # Exits the program
         else:
-            print("Invalid choice. Please enter a valid option (1-4).")
-
-if __name__ == "__main__":
-    main()
+            print("Invalid choice. Please enter a valid option (1-5).")
