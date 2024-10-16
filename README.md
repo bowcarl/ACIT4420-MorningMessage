@@ -80,8 +80,6 @@ ACIT4420-MorningMessage/
 ├── morning_greetings/
 |   ├── __pyache__.py
 |       ├── (...).py
-|   ├── morning_greetings.egg-info
-|       ├── (...).py
 │   ├── __init__.py
 │   ├── __main__.py                # Entry point for the module
 │   ├── contact_manager.py
