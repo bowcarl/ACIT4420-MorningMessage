@@ -43,7 +43,7 @@ def main():
                     print("Email is already occupied. Start over.")
         elif choice == '2':
             Contacts.list_contacts()
-            email = input("Which contact do you want to remove? ")
+            email = input("Which contact do you want to remove (insert their email)? ")
             if any(c["email"] == email for c in Contacts.contacts): # Checks if the email exists in contacts.json
                 Contacts.remove_contact(email)
             else:
