@@ -37,7 +37,7 @@ def main():
                 preferred_time = input("Preferred Time: ")
                 if not any(c["email"] == email for c in Contacts.contacts): # Checks if the email is unique
                     Contacts.add_contact(name, email, preferred_time)
-                    print(f"Contact added successfully.\n{Contacts.list_contacts()}")
+                    print("Contact added successfully.\n")
                     break 
                 else:
                     print("Email is already occupied. Start over.")
