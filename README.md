@@ -49,7 +49,7 @@ Once the package is installed you only need to run this command in your preffere
 ```bash
 morning_greetings
 ```
-This will launch a menu (from the **__main__.py** entrypoint) where you can choose between four options, which loops until the user exits the code:
+This will launch a menu (from the **`__main__.py`** entrypoint) where you can choose between four options, which loops until the user exits the code:
 1. **Add a Contact**
 2. **Remove a Contact**
 3. **Send Morning Greeting Messages**
