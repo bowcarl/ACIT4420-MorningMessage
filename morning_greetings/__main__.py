@@ -7,6 +7,7 @@ Contacts = contact_manager.ContactsManager()
 
 def send_greetings():
     '''Send morning greetings to all contacts'''
+    Contacts.list_contacts()
     if not Contacts.contacts: # Checks if there are no contacts in contacts.json
         print("No contacts found. Please add some contacts first.")
         return
