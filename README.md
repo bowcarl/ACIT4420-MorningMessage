@@ -1,6 +1,6 @@
 # ACIT4420-MorningMessage
 
-**ACIT4220-MorningMessage** is a morning greeting package developed as a part of the ACIT4420 course and mandatory assigment. The package includes four python files: **contact_manager.py**, **message_generator.py**, **message_sender.py** and **logger.py**. Additonaly the program has a `__main__.py` entrypoint, an `__init__.py` file to mark it as module, a **log_message.txt** file for logging and a JSON file were the contacts are stored.
+**ACIT4220-MorningMessage** is a morning greeting package developed as a part of the ACIT4420 course and mandatory assigment. The package includes four python files: **contact_manager.py**, **message_generator.py**, **message_sender.py** and **logger.py**. Additonaly the program has a `__main__.py` entrypoint, an `__init__.py` file to mark it as module, a **log_message.txt** file for logging and a **contacts.json** file were the contacts are stored.
 ## Table of Contents
 - [Features](#features)
 - [Installation Manual](#installation)
